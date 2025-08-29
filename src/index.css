@@ -1,0 +1,258 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Rajlaxmi Overseas Design System - Premium Agricultural Export Theme */
+
+@layer base {
+  :root {
+    /* Base Colors */
+    --background: 0 0% 100%;
+    --foreground: 142 71% 8%;
+
+    /* Card System */
+    --card: 0 0% 100%;
+    --card-foreground: 142 71% 8%;
+
+    /* Popover System */
+    --popover: 0 0% 100%;
+    --popover-foreground: 142 71% 8%;
+
+    /* Primary - Deep Agricultural Green */
+    --primary: 142 71% 17%;
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 142 71% 12%;
+    --primary-glow: 142 71% 25%;
+
+    /* Secondary - Warm Earth Tones */
+    --secondary: 34 44% 85%;
+    --secondary-foreground: 142 71% 17%;
+
+    /* Muted - Soft Neutrals */
+    --muted: 60 5% 96%;
+    --muted-foreground: 142 20% 40%;
+
+    /* Accent - Golden Harvest */
+    --accent: 43 74% 49%;
+    --accent-foreground: 0 0% 98%;
+    --accent-light: 43 74% 85%;
+
+    /* Destructive */
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    /* Borders and Inputs */
+    --border: 142 20% 88%;
+    --input: 142 20% 88%;
+    --ring: 142 71% 17%;
+
+    /* Success - Fresh Green */
+    --success: 120 61% 50%;
+    --success-foreground: 0 0% 98%;
+
+    /* Warning - Wheat Gold */
+    --warning: 45 93% 47%;
+    --warning-foreground: 142 71% 8%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-hover)) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(45 93% 55%) 100%);
+    --gradient-earth: linear-gradient(135deg, hsl(34 44% 85%) 0%, hsl(43 74% 85%) 100%);
+
+    /* Shadows */
+    --shadow-primary: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.4);
+    --shadow-card: 0 4px 20px -4px hsl(var(--primary) / 0.1);
+    --shadow-floating: 0 20px 40px -12px hsl(var(--primary) / 0.25);
+
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-spring: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    --radius: 0.75rem;
+
+    /* Sidebar System */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 142 20% 30%;
+    --sidebar-primary: 142 71% 17%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 142 20% 90%;
+    --sidebar-accent-foreground: 142 71% 17%;
+    --sidebar-border: 142 20% 85%;
+    --sidebar-ring: 142 71% 25%;
+  }
+
+  .dark {
+    /* Dark Mode - Deep Forest Theme */
+    --background: 142 71% 4%;
+    --foreground: 0 0% 98%;
+
+    --card: 142 71% 6%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 142 71% 6%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 120 61% 50%;
+    --primary-foreground: 142 71% 4%;
+    --primary-hover: 120 61% 45%;
+    --primary-glow: 120 61% 60%;
+
+    --secondary: 142 20% 15%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 142 20% 10%;
+    --muted-foreground: 142 20% 70%;
+
+    --accent: 43 74% 55%;
+    --accent-foreground: 142 71% 4%;
+    --accent-light: 43 74% 20%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 142 20% 15%;
+    --input: 142 20% 15%;
+    --ring: 120 61% 50%;
+
+    --success: 120 61% 60%;
+    --success-foreground: 142 71% 4%;
+
+    --warning: 45 93% 55%;
+    --warning-foreground: 142 71% 4%;
+
+    /* Dark Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hero: linear-gradient(135deg, hsl(142 71% 6%) 0%, hsl(142 71% 10%) 100%);
+    --gradient-accent: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(45 93% 65%) 100%);
+    --gradient-earth: linear-gradient(135deg, hsl(142 20% 15%) 0%, hsl(43 30% 20%) 100%);
+
+    /* Dark Shadows */
+    --shadow-primary: 0 10px 30px -10px hsl(var(--primary) / 0.4);
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.3);
+    --shadow-card: 0 4px 20px -4px hsl(0 0% 0% / 0.3);
+    --shadow-floating: 0 20px 40px -12px hsl(0 0% 0% / 0.4);
+
+    --sidebar-background: 142 71% 6%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 120 61% 50%;
+    --sidebar-primary-foreground: 142 71% 4%;
+    --sidebar-accent: 142 20% 12%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 142 20% 15%;
+    --sidebar-ring: 120 61% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary/40 rounded-lg;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary/60;
+  }
+}
+
+/* Additional component styles */
+@layer components {
+  .hero-pattern {
+    background-image: 
+      radial-gradient(circle at 25% 25%, hsl(var(--primary) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 75% 75%, hsl(var(--accent) / 0.1) 0%, transparent 50%);
+  }
+
+  .card-hover {
+    transition: var(--transition-smooth);
+    box-shadow: var(--shadow-card);
+  }
+
+  .card-hover:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-floating);
+  }
+
+  .glow-effect {
+    position: relative;
+  }
+
+  .glow-effect::before {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    padding: 1px;
+    background: var(--gradient-primary);
+    border-radius: inherit;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: xor;
+    -webkit-mask-composite: xor;
+    opacity: 0;
+    transition: var(--transition-smooth);
+  }
+
+  .glow-effect:hover::before {
+    opacity: 1;
+  }
+
+  .text-gradient {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .floating-animation {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+
+  .slide-up {
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .stagger-animation > * {
+    opacity: 0;
+    animation: slideUp 0.6s ease-out forwards;
+  }
+
+  .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
+  .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
+  .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
+  .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
+  .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+  .stagger-animation > *:nth-child(6) { animation-delay: 0.6s; }
+}
