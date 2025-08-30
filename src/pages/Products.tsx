@@ -39,30 +39,31 @@ const Products = () => {
   const products = [
     {
       id: 1,
-      name: "Basmati Rice",
-      category: "rice",
-      image: BasmatiRice,
-      description: "Premium aromatic basmati rice with long grains and authentic taste, perfect for global markets.",
-      varieties: ["Traditional Basmati", "Sella Basmati", "Steam Basmati"],
-      tags: ["Premium Grade", "Export Quality", "Aromatic"]
+      name: "Toor Dal",
+      category: "pulses",
+      image: ToorDal,
+      description: "High-quality pigeon peas rich in protein and essential nutrients.",
+      varieties: ["Plain Toor Dal", "Oily Toor Dal"],
+      tags: ["High Protein", "Natural", "Split Variety"]
     },
     {
+
       id: 2,
-      name: "Non-Basmati Rice",
-      category: "rice",
-      image: NonBasmatiRice,
-      description: "High-quality non-basmati rice varieties including IR-64, PR-11, and parboiled rice.",
-      varieties: ["IR-64", "PR-11", "Parboiled Rice"],
-      tags: ["Bulk Available", "Cost Effective", "Nutritious"]
+      name: "Chana Dal",
+      category: "pulses",
+      image: ChanaDal,
+      description: "Premium split chickpeas with excellent taste and nutritional value.",
+      varieties: ["Split Chickpeas", "Roasted Chana"],
+      tags: ["High Protein", "Versatile", "Premium Quality"]
     },
     {
       id: 3,
-      name: "Brown Rice",
-      category: "rice",
-      image: BrownRice,
-      description: "Healthy brown rice with natural bran layer intact, rich in fiber and nutrients.",
-      varieties: ["Long Grain Brown", "Medium Grain Brown"],
-      tags: ["Healthy Choice", "High Fiber", "Natural"]
+      name: "Groundnuts",
+      category: "pulses",
+      image: Groundnuts,
+      description: "Fresh groundnuts (peanuts) with natural flavor and high oil content.",
+      varieties: ["Bold Peanuts", "Java Peanuts", "Red Skin Peanuts"],
+      tags: ["High Oil Content", "Fresh", "Export Grade"]
     },
     {
       id: 4,
@@ -93,39 +94,40 @@ const Products = () => {
     },
     {
       id: 7,
+      name: "Basmati Rice",
+      category: "rice",
+      image: BasmatiRice,
+      description: "Premium aromatic basmati rice with long grains and authentic taste, perfect for global markets.",
+      varieties: ["Traditional Basmati", "Sella Basmati", "Steam Basmati"],
+      tags: ["Premium Grade", "Export Quality", "Aromatic"]
+    },
+    {
+      id: 8,
+      name: "Non-Basmati Rice",
+      category: "rice",
+      image: NonBasmatiRice,
+      description: "High-quality non-basmati rice varieties including IR-64, PR-11, and parboiled rice.",
+      varieties: ["IR-64", "PR-11", "Parboiled Rice"],
+      tags: ["Bulk Available", "Cost Effective", "Nutritious"]
+    },
+    {
+      id: 9,
+      name: "Brown Rice",
+      category: "rice",
+      image: BrownRice,
+      description: "Healthy brown rice with natural bran layer intact, rich in fiber and nutrients.",
+      varieties: ["Long Grain Brown", "Medium Grain Brown"],
+      tags: ["Healthy Choice", "High Fiber", "Natural"]
+
+    },
+    {
+      id: 10,
       name: "Corn(Maize)",
       category: "grains",
       image: Corn,
       description: "High-quality corn kernels used for food, feed, and industrial applications with rich nutritional value.",
       varieties: ["Sweet Corn", "Popcorn", "Flint Corn", "Dent Corn"],
       tags: ["Nutritious", "Versatile", "High Energy"]
-    },
-    {
-      id: 8,
-      name: "Toor Dal",
-      category: "pulses",
-      image: ToorDal,
-      description: "High-quality pigeon peas rich in protein and essential nutrients.",
-      varieties: ["Plain Toor Dal", "Oily Toor Dal"],
-      tags: ["High Protein", "Natural", "Split Variety"]
-    },
-    {
-      id: 9,
-      name: "Chana Dal",
-      category: "pulses",
-      image: ChanaDal,
-      description: "Premium split chickpeas with excellent taste and nutritional value.",
-      varieties: ["Split Chickpeas", "Roasted Chana"],
-      tags: ["High Protein", "Versatile", "Premium Quality"]
-    },
-    {
-      id: 10,
-      name: "Groundnuts",
-      category: "pulses",
-      image: Groundnuts,
-      description: "Fresh groundnuts (peanuts) with natural flavor and high oil content.",
-      varieties: ["Bold Peanuts", "Java Peanuts", "Red Skin Peanuts"],
-      tags: ["High Oil Content", "Fresh", "Export Grade"]
     },
     {
       id: 11,

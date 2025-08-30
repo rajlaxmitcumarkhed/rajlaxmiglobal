@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import heroGrains from "@/assets/hero-grains.jpg";
 import heroProducts from "@/assets/hero-agri-products.jpg";
 import heroPulses from "@/assets/hero-indian-pulses.jpg";
+import RajlaxmiCatalog from "@/assets/RajlaxmiCatlog.pdf";
 
 const Hero = () => {
   const backgroundImages = [heroGrains, heroProducts, heroPulses];
@@ -11,7 +12,7 @@ const Hero = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentImageIndex((prevIndex) => 
+      setCurrentImageIndex((prevIndex) =>
         (prevIndex + 1) % backgroundImages.length
       );
     }, 2000);
@@ -28,9 +29,8 @@ const Hero = () => {
             key={index}
             src={image}
             alt="Premium agricultural products"
-            className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${
-              index === currentImageIndex ? 'opacity-100' : 'opacity-0'
-            }`}
+            className={`absolute w-full h-full object-cover transition-opacity duration-1000 ${index === currentImageIndex ? 'opacity-100' : 'opacity-0'
+              }`}
           />
         ))}
         {/* Enhanced overlay for better text readability */}
@@ -41,7 +41,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 w-full container mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-24">
         <div className="max-w-7xl mx-auto text-center">
-          <div className="slide-up mb-8 sm:mb-12">           
+          <div className="slide-up mb-8 sm:mb-12">
             <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-tight text-white drop-shadow-2xl">
               The Taste of India,
               <span className="block text-transparent bg-gradient-to-r from-accent via-yellow-400 to-accent bg-clip-text">
@@ -49,33 +49,33 @@ const Hero = () => {
               </span>
             </h1>
           </div>
-          
+
           <div className="slide-up max-w-4xl mx-auto mb-12 sm:mb-16" style={{ animationDelay: "0.2s" }}>
             <p className="text-xl sm:text-2xl md:text-3xl text-white/95 leading-relaxed font-light">
-              Your trusted partner in global agricultural trade. Rajlaxmi Global Ventures brings you 
-              premium quality rice, wheat, pulses, and traditional Indian food products with 
+              Your trusted partner in global agricultural trade. Rajlaxmi Global Ventures brings you
+              premium quality rice, wheat, pulses, and traditional Indian food products with
               <span className="font-semibold text-accent"> 25 years of domestic market expertise.</span>
             </p>
           </div>
 
           <div className="stagger-animation flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center mb-16 sm:mb-20">
-            <Button 
-              variant="accent" 
-              size="xl" 
+            <Button
+              variant="accent"
+              size="xl"
               className="group w-full sm:w-auto text-lg px-8 py-4 shadow-2xl hover:shadow-accent/25 hover:scale-105 transition-all duration-300"
               onClick={() => document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Discover Products
               <ArrowRight className="w-6 h-6 ml-3 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button 
-              variant="outline" 
-              size="xl" 
+            <Button
+              variant="outline"
+              size="xl"
               className="w-full sm:w-auto text-lg px-8 py-4 bg-white/10 border-white/30 text-white hover:bg-white/20 backdrop-blur-sm shadow-2xl hover:scale-105 transition-all duration-300"
               onClick={() => {
                 const link = document.createElement('a');
-                link.href = 'data:application/pdf;base64,JVBERi0xLjQKMSAwIG9iago8PAovVHlwZSAvQ2F0YWxvZwovUGFnZXMgMiAwIFIKPj4KZW5kb2JqCjIgMCBvYmoKPDwKL1R5cGUgL1BhZ2VzCi9LaWRzIFszIDAgUl0KL0NvdW50IDEKL01lZGlhQm94IFswIDAgNTk1IDg0Ml0KPj4KZW5kb2JqCjMgMCBvYmoKPDwKL1R5cGUgL1BhZ2UKL1BhcmVudCAyIDAgUgovUmVzb3VyY2VzIDw8Ci9Gb250IDw8Ci9GMSA0IDAgUgo+Pgo+PgovQ29udGVudHMgNSAwIFIKPj4KZW5kb2JqCjQgMCBvYmoKPDwKL1R5cGUgL0ZvbnQKL1N1YnR5cGUgL1R5cGUxCi9CYXNlRm9udCAvSGVsdmV0aWNhCj4+CmVuZG9iago1IDAgb2JqCjw8Ci9MZW5ndGggMTQ0Cj4+CnN0cmVhbQpCVApxCjU2LjY5MjkxIDc5NC4wMDM5IGwKQlQKL0YxIDEyIFRmCjU2LjY5MjkxIDc1Ni4wMDM5IFRkCihSYWpsYXhtaSBPdmVyc2VhcyAtIFByb2R1Y3QgQ2F0YWxvZykgVGoKRVQKQlQKL0YxIDEwIFRmCjU2LjY5MjkxIDcyNi4wMDM5IFRkCihDb250YWN0OiBpbmZvQHJhamxheG1pb3ZlcnNlYXMuY29tKSBUagpFVApFVApRCmVuZHN0cmVhbQplbmRvYmoKeHJlZgowIDYKMDAwMDAwMDAwMCA2NTUzNSBmIAowMDAwMDAwMDA5IDAwMDAwIG4gCjAwMDAwMDAwNTggMDAwMDAgbiAKMDAwMDAwMDExNSAwMDAwMCBuIAowMDAwMDAwMjQ1IDAwMDAwIG4gCjAwMDAwMDAzMjIgMDAwMDAgbiAKdHJhaWxlcgo8PAovU2l6ZSA2Ci9Sb290IDEgMCBSCj4+CnN0YXJ0eHJlZgo1MTYKJSVFT0Y=';
-                link.download = 'Rajlaxmi-Global-Ventures-Catalog.pdf';
+                link.href = RajlaxmiCatalog;  // Use imported PDF file
+                link.download = 'Rajlaxmi-Global-Ventures-Catalog.pdf'; // Name for download
                 link.click();
               }}
             >
