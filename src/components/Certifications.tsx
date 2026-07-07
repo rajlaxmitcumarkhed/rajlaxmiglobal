@@ -61,7 +61,7 @@ const Certifications = () => {
           </div>
           <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
             Certifications &
-            <span className="block text-transparent bg-gradient-primary bg-clip-text">
+          <span className="block pb-3 text-transparent bg-gradient-primary bg-clip-text">
               Quality Standards
             </span>
           </h2>

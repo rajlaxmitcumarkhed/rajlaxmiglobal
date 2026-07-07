@@ -33,7 +33,7 @@ const About = () => {
         </div>
         <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
           Welcome to
-          <span className="block text-transparent bg-gradient-primary bg-clip-text">
+         <span className="block pb-3 text-transparent bg-gradient-primary bg-clip-text">
             Rajlaxmi Global
           </span>
         </h2>
