@@ -64,7 +64,7 @@ const Header = () => {
             />
             <div>
               <h1 className="font-bold text-lg text-foreground">
-                Rajlaxmi Global Ventures
+                Rajlaxmi Global
               </h1>
               <p className="text-xs text-muted-foreground">
                 Global Agricultural Excellence

@@ -8,28 +8,28 @@ const Certifications = () => {
   const certifications = [
     {
       name: "FSSAI License",
-      description: "Food Safety and Standards Authority of India certification for food safety compliance",
+      description: "Food Safety and Standards Authority of India certification for food safety compliance(Click to view certificate)",
       icon: Shield,
       logo: "/src/assets/FssaiLogo.png",
-      certificate: "/src/assets/fssai-certificate.jpg",
+      certificate: "/src/assets/FSSAI_RAJLAXMI.png",
       status: "Certified",
       color: "success"
     },
     {
       name: "APEDA Registration",
-      description: "Agricultural and Processed Food Products Export Development Authority registration",
+      description: "Agricultural and Processed Food Products Export Development Authority registration(Click to view certificate)",
       icon: Award,
       logo: "/src/assets/ApedaLogo.png",
-      certificate: "/src/assets/apeda-certificate.jpg",
+      certificate: "/src/assets/APEDA_RAJLAXMI.png",
       status: "Registered",
       color: "success"
     },
     {
       name: "IEC Code",
-      description: "Import Export Code for international trade operations",
+      description: "Import Export Code for international trade operations(Click to view certificate)",
       icon: Globe,
       logo: "/src/assets/IECCode.png",
-      certificate: null,
+      certificate: "/src/assets/IEC_RAJLAXMI.png",
       status: "Active",
       color: "success"
     },
@@ -38,7 +38,7 @@ const Certifications = () => {
       description: "Commitment to international quality management systems",
       icon: CheckCircle,
       logo: "/src/assets/IsoLogo.png",
-      certificate: "/src/assets/IsoLogo.webp",
+      certificate: null,
       status: "Compliant",
       color: "success"
     }

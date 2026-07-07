@@ -58,8 +58,8 @@ const Contact = () => {
 
   /*
   const handleGetQuote = () => {
-    const subject = "Product Inquiry from Website - Rajlaxmi Global Ventures";
-    const body = `Dear Rajlaxmi Global Ventures Team,
+    const subject = "Product Inquiry from Website - Rajlaxmi Global";
+    const body = `Dear Rajlaxmi Global Team,
 
 I am interested in getting a quote for your agricultural products.
 
@@ -85,7 +85,7 @@ Looking forward to your response.
 Best regards,
 ${formData.firstName} ${formData.lastName}`;
 
-    const mailtoLink = `mailto:info@rajlaxmiglobalventures.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+    const mailtoLink = `mailto:info@rajlaxmiglobal.in?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoLink;
   };
    */
@@ -98,7 +98,7 @@ return (
           Get In Touch
         </Badge>
         <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-          Contact Rajlaxmi Global Ventures
+          Contact Rajlaxmi Global
         </h2>
         <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
           Ready to partner with us for premium agricultural products?
@@ -124,7 +124,7 @@ return (
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Address</h4>
                   <p className="text-muted-foreground leading-relaxed break-words">
-                    Rajlaxmi Global Ventures,
+                    Rajlaxmi Trading Company,
                     Pusad Road, Umarkhed<br />
                     Maharashtra, India - 445206
                   </p>
@@ -150,8 +150,8 @@ return (
                 <div>
                   <h4 className="font-semibold text-foreground mb-2">Email</h4>
                   <p className="text-muted-foreground leading-relaxed break-all">
-                    - info@rajlaxmiglobalventures.com <br />
-                    - sales@rajlaxmiglobalventures.com
+                    - info@rajlaxmiglobal.in <br />
+                    - sales@rajlaxmiglobal.in
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ return (
           <Card variant="floating" className="overflow-hidden w-full">
             <CardContent className="p-8">
               <h3 className="text-2xl font-semibold text-foreground mb-6">
-                Why Choose Rajlaxmi Global Ventures?
+                Why Choose Rajlaxmi Global?
               </h3>
               <div className="space-y-4">
                 {[

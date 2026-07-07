@@ -19,7 +19,7 @@ const Footer = () => {
               />
 
               <div>
-                <h3 className="text-2xl font-bold">Rajlaxmi Global Ventures</h3>
+                <h3 className="text-2xl font-bold">Rajlaxmi Global</h3>
                 <p className="text-primary-foreground/80">Global Agricultural Excellence</p>
               </div>
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
               <div className="flex items-center text-primary-foreground/80">
                 <MapPin className="w-5 h-5 mr-3 flex-shrink-0" />
                 <span className="text-sm">
-                  Rajlaxmi Global Ventures, Pusad Road, Umarkhed, Maharashtra, India - 445206
+                  Rajlaxmi Trading Company, Pusad Road, Umarkhed, Maharashtra, India - 445206
                 </span>
               </div>
               <div className="flex items-center text-primary-foreground/80">
@@ -43,11 +43,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center text-primary-foreground/80">
                 <Mail className="w-5 h-5 mr-3 flex-shrink-0" />
-                <span className="text-sm">info@rajlaxmiglobalventures.com</span>
+                <span className="text-sm">info@rajlaxmiglobal.in</span>
               </div>
               <div className="flex items-center text-primary-foreground/80">
                 <Mail className="w-5 h-5 mr-3 flex-shrink-0" />
-                <span className="text-sm">sales@rajlaxmiglobalventures.com</span>
+                <span className="text-sm">sales@rajlaxmiglobal.in</span>
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ const Footer = () => {
         <div className="border-t border-primary-foreground/20 py-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-primary-foreground/60 text-sm">
-              © {currentYear} Rajlaxmi Global Ventures. All rights reserved.
+              © {currentYear} Rajlaxmi Global. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a href="#" className="text-primary-foreground/60 hover:text-accent text-sm transition-colors">

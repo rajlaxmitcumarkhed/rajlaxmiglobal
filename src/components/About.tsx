@@ -9,7 +9,7 @@ const About = () => {
     "25 years of domestic market experience", 
     "FSSAI & APEDA certified operations",
     "Global export capabilities with IEC code",
-    "Sister company of Rajlaxmi Global Ventures",
+    "Sister company of Rajlaxmi Trading Company",
     "Specialized in rice, wheat, pulses & traditional foods"
   ];
 
@@ -34,7 +34,7 @@ const About = () => {
         <h2 className="text-5xl md:text-6xl font-bold text-foreground mb-6 leading-tight">
           Welcome to
           <span className="block text-transparent bg-gradient-primary bg-clip-text">
-            Rajlaxmi Global Ventures
+            Rajlaxmi Global
           </span>
         </h2>
         <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
@@ -59,7 +59,7 @@ const About = () => {
             </h3>
             <p className="text-xl text-muted-foreground leading-relaxed mb-6">
               Building on 25 years of success in the domestic market, Rajlaxmi
-              Global Ventures combines deep local knowledge with international
+              Global combines deep local knowledge with international
               standards to deliver premium agricultural products worldwide.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed">

@@ -52,7 +52,7 @@ const Hero = () => {
 
           <div className="slide-up max-w-4xl mx-auto mb-12 sm:mb-16" style={{ animationDelay: "0.2s" }}>
             <p className="text-xl sm:text-2xl md:text-3xl text-white/95 leading-relaxed font-light">
-              Your trusted partner in global agricultural trade. Rajlaxmi Global Ventures brings you
+              Your trusted partner in global agricultural trade. Rajlaxmi Global brings you
               premium quality rice, wheat, pulses, and traditional Indian food products with
               <span className="font-semibold text-accent"> 25 years of domestic market expertise.</span>
             </p>
