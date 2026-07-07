@@ -3,6 +3,9 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/enhanc
 import { Badge } from "@/components/ui/badge";
 import { Shield, Award, CheckCircle, Globe } from "lucide-react";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import fssaicertificate from "../assets/FSSAI_RAJLAXMI.png";
+import apedacertificate from "../assets/APEDA_RAJLAXMI.png";
+import ieccertificate from "../assets/IEC_RAJLAXMI.png";
 
 const Certifications = () => {
   const certifications = [
@@ -11,7 +14,7 @@ const Certifications = () => {
       description: "Food Safety and Standards Authority of India certification for food safety compliance(Click to view certificate)",
       icon: Shield,
       logo: "/src/assets/FssaiLogo.png",
-      certificate: "/src/assets/FSSAI_RAJLAXMI.png",
+      certificate: fssaicertificate,
       status: "Certified",
       color: "success"
     },
@@ -20,7 +23,7 @@ const Certifications = () => {
       description: "Agricultural and Processed Food Products Export Development Authority registration(Click to view certificate)",
       icon: Award,
       logo: "/src/assets/ApedaLogo.png",
-      certificate: "/src/assets/APEDA_RAJLAXMI.png",
+      certificate: apedacertificate,
       status: "Registered",
       color: "success"
     },
@@ -29,7 +32,7 @@ const Certifications = () => {
       description: "Import Export Code for international trade operations(Click to view certificate)",
       icon: Globe,
       logo: "/src/assets/IECCode.png",
-      certificate: "/src/assets/IEC_RAJLAXMI.png",
+      certificate: ieccertificate,
       status: "Active",
       color: "success"
     },
