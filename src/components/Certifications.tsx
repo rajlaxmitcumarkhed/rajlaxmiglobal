@@ -6,6 +6,10 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 import fssaicertificate from "../assets/FSSAI_RAJLAXMI.png";
 import apedacertificate from "../assets/APEDA_RAJLAXMI.png";
 import ieccertificate from "../assets/IEC_RAJLAXMI.png";
+import fssailogo from "../assets/FssaiLogo.png";
+import apedalog from "../assets/ApedaLogo.png";
+import ieclogo from "../assets/IECCode.png";
+import isologo from "../assets/IsoLogo.png";
 
 const Certifications = () => {
   const certifications = [
@@ -13,7 +17,7 @@ const Certifications = () => {
       name: "FSSAI License",
       description: "Food Safety and Standards Authority of India certification for food safety compliance(Click to view certificate)",
       icon: Shield,
-      logo: "/src/assets/FssaiLogo.png",
+      logo: fssailogo,
       certificate: fssaicertificate,
       status: "Certified",
       color: "success"
@@ -22,7 +26,7 @@ const Certifications = () => {
       name: "APEDA Registration",
       description: "Agricultural and Processed Food Products Export Development Authority registration(Click to view certificate)",
       icon: Award,
-      logo: "/src/assets/ApedaLogo.png",
+      logo: apedalog,
       certificate: apedacertificate,
       status: "Registered",
       color: "success"
@@ -31,7 +35,7 @@ const Certifications = () => {
       name: "IEC Code",
       description: "Import Export Code for international trade operations(Click to view certificate)",
       icon: Globe,
-      logo: "/src/assets/IECCode.png",
+      logo: ieclogo,
       certificate: ieccertificate,
       status: "Active",
       color: "success"
@@ -40,7 +44,7 @@ const Certifications = () => {
       name: "ISO Quality Standards",
       description: "Commitment to international quality management systems",
       icon: CheckCircle,
-      logo: "/src/assets/IsoLogo.png",
+      logo: isologo,
       certificate: null,
       status: "Compliant",
       color: "success"
