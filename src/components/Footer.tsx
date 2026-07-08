@@ -40,15 +40,14 @@ const Footer = () => {
               <div className="flex items-center text-primary-foreground/80">
                 <Phone className="w-5 h-5 mr-3 flex-shrink-0" />
                 <span className="text-sm">+91-7744824499</span>
-              </div>
-              <div className="flex items-center text-primary-foreground/80">
-                <Mail className="w-5 h-5 mr-3 flex-shrink-0" />
-                <span className="text-sm">info@rajlaxmiglobal.in</span>
-              </div>
-              <div className="flex items-center text-primary-foreground/80">
-                <Mail className="w-5 h-5 mr-3 flex-shrink-0" />
-                <span className="text-sm">sales@rajlaxmiglobal.in</span>
-              </div>
+              </div>              
+              <a
+  href="mailto:sales@rajlaxmiglobal.in?subject=Business%20Inquiry&body=Hello%20Rajlaxmi%20Global,%0A%0AI%20would%20like%20to%20know%20more%20about..."
+  className="flex items-center text-primary-foreground/80 hover:text-primary-foreground transition-colors"
+>
+  <Mail className="w-5 h-5 mr-3 flex-shrink-0" />
+  <span className="text-sm">sales@rajlaxmiglobal.in</span>
+</a>
             </div>
           </div>
 
