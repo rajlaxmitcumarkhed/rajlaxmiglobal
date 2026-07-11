@@ -138,7 +138,7 @@ ${formData.firstName} ${formData.lastName}`;
                   <div>
                     <h4 className="font-semibold text-foreground mb-2">Phone</h4>
                     <p className="text-muted-foreground break-words">
-                      +91-7744824499 | +91-9422167917
+                      +91-7744824499 | +91-7841868799
                     </p>
                   </div>
                 </div>
